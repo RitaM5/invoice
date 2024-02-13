@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tangerine:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* section{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+} */
+.content {
+    background-color: #ECEFF4;
+}
+
+.sup {
+    position: relative;
+    top: 50px;
+    left: 245px;
+    font-size: 30px;
+    font-style: italic;
+    color: #E62600;
+    font-family: "Tangerine", cursive;
+    font-weight: 900px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.address {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+    line-height: 35px;
+}
+
+.invoice {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.logo {
+    background-color: #FBE8E5;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.logo-name {
+    display: inline-flex;
+}
+
+.heading .active {
+    color: #FFBA00;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.heading span {
+    color: #E62600;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.middle-section {
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.product-details {
+    padding: 12px;
+    margin-top: 12px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #ECEFF4;
+    padding: 8px;
+    text-align: left;
+    font-size: 22px;
+}
+
+td {
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.scanner img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.total td:first-child {
+    padding-right: 100px;
+}
+
+/* mobile responsive */
+@media screen and (max-width: 980px) {
+    section {
+        width: 100%;
+    }
+
+    .header {
+        display: block;
+    }
+
+    .heading {
+        display: block;
+    }
+
+    .invoice {
+        font-size: 22px;
+        margin-top: 12px;
+    }
+
+    .logo-name {
+        display: block;
+        margin-top: 12px;
+    }
+
+    .sup {
+        left: 35px;
+        top: 85px;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:576px) and (max-width: 980px) {
+    section {
+        width: 100%;
+    }
+
+    .header {
+        display: block;
+    }
+
+    .heading {
+        display: block;
+    }
+
+    .invoice {
+        font-size: 22px;
+        margin-top: 12px;
+    }
+
+    .logo-name {
+        display: block;
+        margin-top: 12px;
+    }
+
+    .sup {
+        left: 35px;
+        top: 85px;
+        font-size: 50px;
+    }
+
+    .total {
+        display: block;
+    }
+
+    .total table {
+        margin-top: 22px;
+    }
+
+    .scanner {
+        text-align: center;
+    }
+    .total td:first-child {
+        padding-right: 0px;
+    }
+}
+
+/* for table */
+@media (max-width: 600px) {
+    table {
+        overflow-x: scroll;
+    }
+}
+
+/* @media  screen and (max-width:430px) {
+    .multi-sup{
+        right:100px;
+     }
+} */
